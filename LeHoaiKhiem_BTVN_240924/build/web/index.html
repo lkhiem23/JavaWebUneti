@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Đăng nhập</title>
+       
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        /* CSS Code */
+        
+        /* CSS Code */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .container h2 {
+            color: red;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .info {
+            margin-bottom: 20px;
+            color: white;
+            font-size: 18px;
+        }
+
+        form {
+            background-color: #2b2b2b;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #333;
+            color: white;
+        }
+
+        input[type="submit"], input[type="reset"] {
+            background-color: #777;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            background-color: #888;
+        }
+
+        input[type="submit"] {
+            margin-right: 10px;
+        }
+    </style>
+
+    </head>
+    <body>
+       <div class="container">
+        <div class="info">Lê Hoài Khiêm - DHTI15A5HN</div>
+        <h2>ĐĂNG NHẬP</h2>
+        <form action="DangNhap_Khiem" method="post">
+            <label for="username">Tên đăng nhập:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Mật khẩu:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <input type="submit" value="ĐĂNG NHẬP">
+            <input type="reset" value="THOÁT">
+        </form>
+    </div>
+    </body>
+</html>
