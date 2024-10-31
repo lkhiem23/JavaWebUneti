@@ -15,7 +15,7 @@ public class KetNoi {
     public static Connection KNCSDL() throws SQLException {
        try {
             // Nạp trình điều khiển
-            Class.forName("com.mysql.cj.jdbc.Driver"); // Đảm bảo sử dụng driver đúng
+            Class.forName("com.mysql.cj.jdbc.Driver"); 
         } catch (ClassNotFoundException e) {
             throw new SQLException("Driver không tìm thấy", e);
         }
