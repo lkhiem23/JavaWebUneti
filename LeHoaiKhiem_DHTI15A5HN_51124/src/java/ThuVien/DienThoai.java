@@ -5,12 +5,8 @@ package ThuVien;
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-/**
- *
- * @author ADMIN
- */
 public class DienThoai {
-     private String ma;
+    private String ma;
     private String ten;
     private int soluong;
     private double dongia;
