@@ -24,7 +24,7 @@ public class XLTimKiem_LeHoaiKhiem extends HttpServlet {
      protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-      String ma = request.getParameter("ma");
+        String ma = request.getParameter("ma");
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
 
