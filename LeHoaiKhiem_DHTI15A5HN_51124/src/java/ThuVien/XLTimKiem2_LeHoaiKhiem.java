@@ -38,6 +38,7 @@ public class XLTimKiem2_LeHoaiKhiem extends HttpServlet {
     @Override
 protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+                
         String ma = request.getParameter("ma");
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
