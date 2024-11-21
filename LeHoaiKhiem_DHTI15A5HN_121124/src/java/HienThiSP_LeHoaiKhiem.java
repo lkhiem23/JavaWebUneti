@@ -26,8 +26,8 @@ public class HienThiSP_LeHoaiKhiem extends HttpServlet {
         String maSP = request.getParameter("maSP");
 
         String url = "jdbc:mysql://localhost:3306/QLSanPham";
-        String user = "root";  // Thay bằng username của bạn
-        String password = "";  // Thay bằng password của bạn
+        String user = "root"; 
+        String password = ""; 
         Connection conn = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
