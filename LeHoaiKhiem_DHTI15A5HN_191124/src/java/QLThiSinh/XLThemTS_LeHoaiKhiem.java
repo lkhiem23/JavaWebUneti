@@ -70,7 +70,6 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response)
                         response.sendRedirect("ThemTS_LeHoaiKhiem.jsp?message=Lỗi: Không thể thêm thí sinh!");
                     }
                 }
-
                 conn.close();
             } catch (Exception e) {
                 e.printStackTrace(out);
