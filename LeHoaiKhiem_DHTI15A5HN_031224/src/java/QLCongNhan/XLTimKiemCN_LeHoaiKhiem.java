@@ -1,4 +1,3 @@
-
 package QLCongNhan;
 
 import java.io.IOException;
