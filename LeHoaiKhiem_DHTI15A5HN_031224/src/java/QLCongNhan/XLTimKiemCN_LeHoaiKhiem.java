@@ -18,6 +18,7 @@ public class XLTimKiemCN_LeHoaiKhiem extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+                
         String maCN = request.getParameter("macn"); // Lấy mã công nhân từ request
         List<Map<String, Object>> danhSachCongNhan = new ArrayList<>();
         List<Map<String, Object>> ketQuaTimKiem = new ArrayList<>();
