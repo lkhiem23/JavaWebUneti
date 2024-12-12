@@ -68,8 +68,6 @@ public class XLThemSV_LeHoaiKhiem extends HttpServlet {
 }       catch (ClassNotFoundException ex) {
             Logger.getLogger(XLThemSV_LeHoaiKhiem.class.getName()).log(Level.SEVERE, null, ex);
 }
-
-
         // Chuyển tiếp về trang JSP với thông báo
         request.getRequestDispatcher("ThemSV_LeHoaiKhiem.jsp").forward(request, response);
     }
