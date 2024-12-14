@@ -40,7 +40,6 @@ public class XLThemTS_LeHoaiKhiem extends HttpServlet {
                 stmt.setString(2, hoten);
                 stmt.setFloat(3, Float.parseFloat(diemToanStr));
                 stmt.setFloat(4, Float.parseFloat(diemVanStr));
-
                 String message = stmt.executeUpdate() > 0 ?
                     "Thêm thành công số báo danh " + sbd : "Lỗi: Không thể thêm thí sinh!";
                 response.sendRedirect("ThemTS_LeHoaiKhiem.jsp?message=" + message);
