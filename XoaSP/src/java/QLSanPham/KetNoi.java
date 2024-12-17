@@ -8,10 +8,7 @@ import java.sql.*;
 import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-/**
- *
- * @author ADMIN
- */
+
 public class KetNoi {
     public static Connection KNCSDL() throws SQLException{
         try {
