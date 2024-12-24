@@ -11,7 +11,6 @@ import java.sql.*;
 
 @WebServlet(urlPatterns = {"/XLXoaSP"})
 public class XLXoaSP extends HttpServlet {
-
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
