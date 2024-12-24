@@ -16,10 +16,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-/**
- *
- * @author ADMIN
- */
+
 @WebServlet(name = "XLTimKiemSV_LeHoaiKhiem", urlPatterns = {"/XLTimKiemSV_LeHoaiKhiem"})
 public class XLTimKiemSV_LeHoaiKhiem extends HttpServlet {
   @Override
