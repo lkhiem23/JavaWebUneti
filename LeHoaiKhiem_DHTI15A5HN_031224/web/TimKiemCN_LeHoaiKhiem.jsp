@@ -81,6 +81,7 @@
             margin-top: 20px;
         }
     </style>
+
 </head>
 <body>
     <h2>Tìm kiếm thông tin Công Nhân</h2>
