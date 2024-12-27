@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 @WebServlet(name = "XLTimKiemCN_LeHoaiKhiem", urlPatterns = {"/XLTimKiemCN_LeHoaiKhiem"})
 public class XLTimKiemCN_LeHoaiKhiem extends HttpServlet {
 
@@ -37,7 +36,6 @@ public class XLTimKiemCN_LeHoaiKhiem extends HttpServlet {
                 cn.put("SoGioLamVuot", rsDanhSach.getInt("SoGioLamVuot"));
                 danhSachCongNhan.add(cn);
             }
-
             // Nếu người dùng nhập mã công nhân, tìm kiếm trong cơ sở dữ liệu
             if (maCN != null && !maCN.trim().isEmpty()) {
                 String queryTimKiem = "SELECT * FROM CongNhan WHERE HoTen = ?";
