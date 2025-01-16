@@ -1,4 +1,3 @@
-
 package QLCongNhan;
 
 import java.io.IOException;
@@ -13,10 +12,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- *
- * @author ADMIN
- */
 @WebServlet(name = "XLTimKiemCN_LeHoaiKhiem", urlPatterns = {"/XLTimKiemCN_LeHoaiKhiem"})
 public class XLTimKiemCN_LeHoaiKhiem extends HttpServlet {
 
